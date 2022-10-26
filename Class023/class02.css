@@ -1,0 +1,66 @@
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background: rgb(144, 255, 17, .5);
+    padding: 20px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    float: left;padding: 0 2rem;
+}
+
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+     display: inline-block;
+     padding: .5rem;
+     line-height: 90px;
+}
+.menu a{
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+/**/
+.bennarSection{
+    background-image: url('images/old-brick-black-color-wall-600w-1605128917.webp');
+    background-size: cover;
+    text-align: center;
+    color: #dddd;
+    padding: 6rem 2rem;
+}
+
+.bennarSection  h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    
+}
+
+.bennarSection p{
+    font-size: 1.2rem;
+    margin: 3rem 0;
+    padding: 3rem 1rem;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.bennarBtn{
+    color: #000;
+    font-size: 1.4rem;
+    padding: .5rem 2rem;
+    background-color: rgb(255, 255, 266, .9);
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: .3rem;
+}
