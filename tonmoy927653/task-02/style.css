@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./Assets/images/background/bg_main.gif) center center;
+    background-repeat: no-repeat;
+}
+/* header part start */
+.wrepper-area{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+/*  */
+
+.heeder-top{
+    background-color: #9E5BBA;
+    color: #ffff;
+    padding: .3rem 1rem;
+    font-size: .9rem;
+}
+
+.heeder-top a{
+    text-decoration: none;
+    color: #ddd;
+    border-left: 1px solid #fff;
+
+}
+.heeder-top p{
+    margin-bottom: 0;
+}
+.header-brand{
+    padding: 1rem 1rem;
+
+}
+
+.header-brand .admin{
+    margin: 2rem 0;
+}
+
+.search-area input{
+    width: 60%;
+}
+.search-area button{
+    border: none;
+    padding: .1rem 2rem;
+    background-color: #ddd;
+}
+
+.link{
+    padding-left: .9rem;
+}
+
+.link p{
+    font-size: .7rem;
+    margin-bottom: 0;
+}
